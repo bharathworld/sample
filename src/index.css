@@ -1,0 +1,84 @@
+body {
+  background-color: #2f2f31;
+}
+h3 {
+  text-align: center;
+  color: #ddd;
+}
+section {
+  display: flex;
+  width: 80%;
+  margin: 30px auto;
+  border-radius: 6px;
+  border: 5px solid rgba(255, 255, 255, 0.3);
+  padding: 10px;
+  box-shadow: 0px 0px 300px 1px #333;
+}
+li {
+  list-style: none;
+  display: block;
+  padding: 5px 0px;
+}
+i {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+header {
+  padding: 0px;
+  margin: 0px;
+}
+header span {
+  color: #ddd;
+  display: inline-block;
+  vertical-align: middle;
+}
+header span:hover {
+  cursor: pointer;
+  color: #fff;
+}
+header span:first-child {
+  padding-top: 5px;
+}
+header span:last-child {
+  padding-left: 5px;
+}
+.tree {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 4px;
+  width: 60%;
+  margin-right: 2%;
+}
+.dropdown-togle {
+  display: none;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 4px;
+}
+.active {
+  display: block;
+}
+.dropdown li {
+  border-bottom: 1px solid #888;
+  color: #888;
+}
+.dropdown li:last-child {
+  border: none;
+}
+
+.table-container {
+  padding: 5%;
+  border: 5px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  color: #ddd;
+}
+
+table, th, td {
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+td, th {
+  padding: 5%;
+  width: 15%;
+  word-wrap: break-word;
+}

@@ -1,0 +1,33 @@
+{
+    "data":[
+        {
+            "key":11,
+            "temperature": 50,
+            "humidity": 30
+        },
+        {
+            "key":12,
+            "temperature": 20,
+            "humidity": 40
+        },
+        {
+            "key":21,
+            "temperature": 10,
+            "humidity": 15
+        },
+        {
+            "key":22,
+            "temperature": 35,
+            "humidity": 60
+        },
+        {
+            "key":23,
+            "temperature": 20,
+            "humidity": 50
+        },
+        {
+            "key":31,
+            "temperature": 50,
+            "humidity": 50
+        }
+]}
